@@ -5,8 +5,8 @@
   "scripts": {
     "watch": "tsc --watch",
     "clean": "rm -rf ./docs",
-    "start": "parcel index.html --dist-dir ./docs/",
-    "build": "rm -rf ./docs && parcel build index.html --dist-dir ./docs/"
+    "start": "parcel template.html --dist-dir ./docs/",
+    "build": "rm -rf ./docs && parcel build template.html --dist-dir ./docs/"
   },
   "repository": {
     "type": "git",
