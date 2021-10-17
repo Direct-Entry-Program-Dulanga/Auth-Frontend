@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sign In | SMS</title>
+
+</head>
+<body>
+  <div class="container-fluid">
+    <h1 class="text-center pt-5">Sign In</h1>
+    <form class="col-10 mx-auto mt-t">
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="txt-fullname">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">UserName</label>
+          <input type="text" class="form-control" id="txt-username">
+        </div>
+        
+        <div class="mb-3">
+          <label for="txt-password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="txt-password">
+        </div>
+        <div class="mb-3">
+          <label for="txt-confirmpassword" class="form-label"> Confirm Password</label>
+          <input type="password" class="form-control" id="txt-confirmpassword">
+        </div>
+            <button id="btn-login" type="submit" class="btn btn-primary btn-block col-12 mb-3 mt-3">Log In</button>
+            <a id="btn-signup" href="./sign-up.html" class="btn btn-primary btn-block col-12">Sign Up</a>
+      </form>
+</div>
+<script type="module" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="ts/sign-up.ts"></script>
+</body>
+</html>

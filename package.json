@@ -5,8 +5,8 @@
   "scripts": {
     "watch": "tsc --watch",
     "clean": "rm -rf ./docs",
-    "start": "parcel template.html --dist-dir ./docs/",
-    "build": "rm -rf ./docs && parcel build template.html --dist-dir ./docs/"
+    "start": "parcel sign-in.html --dist-dir ./docs/",
+    "build": "rm -rf ./docs && parcel build sign-in.html --dist-dir ./docs/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "keywords": [
     "Authentication"
   ],
-  "author": "Dulanga Nimr=esha",
+  "author": "Dulanga Nimesha",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Direct-Entry-Program-Dulanga/Auth-Frontend/issues"
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "admin-lte": "^3.1.0",
+    "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
   }
 }
